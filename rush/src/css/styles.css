@@ -1,0 +1,226 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   styles.css                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hulefevr <hulefevr@student.42nice.fr>      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/06/20 15:02:15 by hulefevr          #+#    #+#             */
+/*   Updated: 2024/06/20 16:06:03 by hulefevr         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+/* Global Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f9fa;
+    margin-left: 200px; /* Espace pour la barre de navigation latérale */
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: #343a40;
+	z-index: 5;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #adb5bd;
+}
+
+.container-fluid {
+    padding-top: 2rem;
+}
+
+.row {
+	z-index: 1;
+}
+
+/* Styles pour le loader */
+.loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #343a40;
+    animation: spin 1s linear infinite;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Cacher le loader après le chargement */
+body.loaded .loader {
+    display: none;
+}
+
+
+/* Styles pour l'animation de survol */
+.experience:hover, .skills:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Styles pour l'animation de clic */
+.nav-link:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #343a40;
+    margin: 0.5rem auto;
+    border-radius: 2px;
+}
+
+.section-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #495057;
+}
+
+.img-fluid {
+    border-radius: 10%;
+    max-width: 500px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.experience, .skills {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.experience h3, .skills h3 {
+    font-size: 1.8rem;
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    body {
+        margin-left: 0;
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .container-fluid {
+        padding-top: 1rem;
+    }
+}
+
+/* Smooth Scroll Animation */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Additional Styles for better aesthetics */
+.section {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s;
+}
+
+.section:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.section-content p {
+    margin-bottom: 1.5rem;
+}
+
+.section-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section-content ul li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.section-content ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #343a40;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease-in;
+}
