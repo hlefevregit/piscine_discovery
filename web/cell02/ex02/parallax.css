@@ -1,0 +1,69 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parallax.css                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hugolefevre <hugolefevre@student.42.fr>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/08/19 21:27:41 by hugolefevre       #+#    #+#             */
+/*   Updated: 2024/08/19 21:27:53 by hugolefevre      ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+/* Réinitialisation des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles généraux pour les sections parallax */
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Première section parallax */
+.parallax1 {
+    background-image: url('image1.jpg');
+}
+
+/* Deuxième section parallax */
+.parallax2 {
+    background-image: url('image2.jpg');
+}
+
+/* Styles pour le message centré */
+.message h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Section de contenu normale entre les sections parallax */
+.content {
+    background-color: black;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Adaptation des styles pour les petits écrans */
+@media (max-width: 768px) {
+    .message h1 {
+        font-size: 2em;
+    }
+}
