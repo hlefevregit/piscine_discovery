@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de couleurs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        table {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5em;
+            color: white;
+            border: 1px solid #ddd;
+        }
+        .case1 {
+            background-color: #FF6347; /* Tomate */
+        }
+        .case2 {
+            background-color: #4682B4; /* Bleu acier */
+        }
+        @media (max-width: 600px) {
+            td {
+                display: block;
+                width: 100%;
+            }
+            tr {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td class="case1">Texte dans la première case</td>
+            <td class="case2">Texte dans la deuxième case</td>
+        </tr>
+    </table>
+
+</body>
+</html>
