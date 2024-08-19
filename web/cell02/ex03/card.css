@@ -1,0 +1,46 @@
+html {
+	text-align: center;
+	align-content: center;
+}
+
+td {
+	border: 1px groove grey;
+	width: 50%;
+}
+
+
+.login {
+	font-weight: bold;
+}
+
+.me {
+	color: lightgray;
+}
+
+.campus {
+	font-size: small;
+}
+
+.twitter {
+	width: 25%;
+	height: 25%;
+}
+
+.fb {
+	width: 25%;
+	height: 25%;
+} 
+
+.forty {
+	width: 25%;
+	height: 25%;
+}
+
+.contact {
+	height: 50px;
+	background-color: black;
+}
+
+button {
+	margin-top: 15px;
+}

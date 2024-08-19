@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Balloon</title>
+		<style>
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				margin: 0;
+			}
+	
+			#ballon {
+				width: 200px;
+				height: 200px;
+				background-color: red;
+				border-radius: 50%;
+				cursor: pointer;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				transition: width 0.3s, height 0.3s, background-color 0.3s;
+			}
+		</style>
+	</head>
+	<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+	<body>
+		<div id="ballon">
+		</div>
+		<script>
+			$(document).ready(function() {
+				var currentColorIndex = 0;
+				var currentSize = 200;
+	
+				$("#ballon").click(function() {
+					// Change color
+					var colors = ['red', 'green', 'blue'];
+					currentColorIndex = (currentColorIndex + 1) % colors.length;
+					$(this).css("background-color", colors[currentColorIndex]);
+	
+					// Increase size
+					currentSize += 10;
+					if (currentSize > 420) {
+						currentSize = 200;
+					}
+					$(this).css({
+						width: currentSize + 'px',
+						height: currentSize + 'px'
+					});
+				});
+				$("#ballon").mouseleave(function() {
+					if (currentSize > 205) {
+						currentSize -= 5
+					}
+					$(this).css({
+						width: currentSize + 'px',
+						height: currentSize + 'px'
+					});
+					var colors = ['blue', 'green', 'red'];
+					currentColorIndex = (currentColorIndex - 1 + colors.length) % colors.length;
+					$(this).css("background-color", colors[currentColorIndex]);
+				});
+			});
+		</script>
+	</body>
+</html>

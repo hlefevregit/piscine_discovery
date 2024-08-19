@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - Page d'accueil</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS personnalisé -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <style>
+        /* Style supplémentaire pour ajuster la hauteur de la barre de navigation latérale */
+        .side-nav {
+            height: 100vh; /* Pleine hauteur de la fenêtre */
+            position: fixed; /* Pour rester fixe lors du défilement */
+            margin-left: 0%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div id="loader" class="loader"></div> -->
+
+    <!-- Barre de navigation latérale -->
+    <nav class="navbar navbar-dark bg-dark side-nav flex-column">
+        <a class="navbar-brand" href="#">Mon CV</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#section1">À propos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section2">Expériences</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section3">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Contenu principal -->
+    <div class="container-fluid ml-5"> <!-- ml-5 pour laisser un espace à gauche de la page -->
+        
+        <section id="section1" class="py-5" data-aos="fade-up">
+            <div class="container">
+                <h2 class="text-center mb-4">À propos</h2>
+                <!-- Contenu à propos -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="../../includes/hulefevr.jpg" alt="Ma photo" class="img-fluid mb-3">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Lefevre Hugo</h3>
+                        <p>Actual Sith Lord</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Section 2 : Expériences et compétences -->
+        <section id="section2" class="bg-light py-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="container">
+                <h2 class="text-center mb-4">Expériences et compétences</h2>
+                <!-- Liste des expériences et compétences -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Expériences professionnelles -->
+                        <h3>Expériences professionnelles</h3>
+                        <ul>
+                            <li>Aide soignant</li>
+                            <li>Garde les enfants stagiaires</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Compétences -->
+                        <h3>Compétences</h3>
+                        <ul>
+                            <li>Jeune</li>
+                            <li>Aime bien Michel Drucker</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Section 3 : Contact -->
+        <section id="section3" class="py-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact</h2>
+                <!-- Formulaire de contact ou informations de contact -->
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <p>Adresse mail : hulefevr@student.42nice.fr</p>
+                        <p>Numéro de téléphone : 06 52 35 97 91</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Bootstrap JavaScript et scripts personnalisés -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

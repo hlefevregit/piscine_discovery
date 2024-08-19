@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Calculatrice</title>
+    </head>
+    <body>
+        <form id="calculatrice">
+            <input type="text" id="leftOperand" placeholder="Entrez un nombre">
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+            </select>
+            <input type="text" id="rightOperand" placeholder="Entrez un nombre">
+            <input type="submit" value="Try me !">
+        </form>
+        <script type="text/javascript" language="JavaScript">
+            document.getElementById('calculatrice').addEventListener('submit', function(event) {
+                event.preventDefault(); // Empêche la soumission du formulaire
+    
+                const leftOperand = document.getElementById("leftOperand").value;
+                const operator = document.getElementById("operator").value;
+                const rightOperand = document.getElementById("rightOperand").value;
+    
+                // Validation des entrées pour s'assurer qu'elles sont des entiers positifs
+                if (!isPositiveInteger(leftOperand) || !isPositiveInteger(rightOperand)) {
+                    alert("Error :(");
+                    return;
+                }
+    
+                const leftValue = parseInt(leftOperand, 10);
+                const rightValue = parseInt(rightOperand, 10);
+    
+                let result;
+                switch (operator) {
+                    case '+':
+                        result = leftValue + rightValue;
+                        break;
+                    case '-':
+                        result = leftValue - rightValue;
+                        break;
+                    case '*':
+                        result = leftValue * rightValue;
+                        break;
+                    case '/':
+                        if (rightValue === 0) {
+                            alert("It's over 9000!");
+                            return;
+                        }
+                        result = leftValue / rightValue;
+                        break;
+                    case '%':
+                        if (rightValue === 0) {
+                            alert("It's over 9000!");
+                            return;
+                        }
+                        result = leftValue % rightValue;
+                        break;
+                    default:
+                        alert("Opérateur non valide.");
+                        return;
+                }
+    
+                alert("Le résultat est : " + result);
+                console.log("Le résultat est : " + result);
+            });
+    
+            // Fonction pour vérifier si une chaîne représente un entier positif
+            function isPositiveInteger(value) {
+                const num = Number(value);
+                return Number.isInteger(num) && num >= 0;
+            }
+
+            setInterval(function() {
+                alert('Please, use me ...');
+            }, 30000);
+        </script>
+    </body>
+</html>
