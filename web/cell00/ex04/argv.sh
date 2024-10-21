@@ -5,6 +5,9 @@ if [ $# -eq 0 ]; then
 	exit 1
 else
 	for i; do
+		if [ $i -lt 1 ] || [ $i -gt 5 ]; then
+			break
+		fi
 		echo $i
 	done
 fi
