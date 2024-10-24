@@ -1,0 +1,13 @@
+Le site etant inaccessible, si nous faisons traceroute sur 42.fr, le resultat ressemblerait a ceci :
+
+traceroute: Warning: 42.fr has multiple addresses; using 104.26.12.15
+traceroute to 42.fr (104.26.12.15), 64 hops max, 40 byte packets
+ 1  192.168.0.254 (192.168.0.254)  7.334 ms  8.237 ms  6.863 ms
+ 2  * * *
+ 3  station3.multimania.isdnet.net (194.149.174.100)  27.009 ms * *
+ 4  prs-b3-link.ip.twelve99.net (62.115.46.68)  29.056 ms  39.491 ms *
+ 5  cloudflare-ic-382666.ip.twelve99-cust.net (213.248.75.93)  29.090 ms  28.908 ms  34.841 ms
+ 6  141.101.67.73 (141.101.67.73)  51.930 ms
+    141.101.67.93 (141.101.67.93)  29.205 ms
+    141.101.67.83 (141.101.67.83)  31.948 ms
+ 7  104.26.12.15 (104.26.12.15)  21.764 ms  21.240 ms  29.016 ms

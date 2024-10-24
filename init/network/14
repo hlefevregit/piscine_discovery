@@ -1,0 +1,4 @@
+La liste des entrées locales DNS sont dans /etc/hosts
+Voici a quoi ressemble le contenu du fichier :
+127.0.0.1       localhost
+192.168.1.10    monserveur.local    monserveur

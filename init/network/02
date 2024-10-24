@@ -1,0 +1,33 @@
+#!/bin/bash
+
+
+OS="$(uname)"
+
+if [ "$OS" == "Darwin" ]; then
+    INTERFACE="en0"
+    echo "Caractéristiques de l'interface Ethernet sur macOS ($INTERFACE):"
+    
+    BROADCAST=$(ifconfig $INTERFACE | grep "broadcast" | awk '{print $6}')
+    echo "Adresse de Broadcast : $BROADCAST"
+    
+    IP=$(ifconfig $INTERFACE | grep "inet " | awk '{print $2}')
+    NETMASK=$(ifconfig $INTERFACE | grep "inet " | awk '{print $4}')
+    echo "Adresse IP : $IP"
+    echo "Masque de sous-réseau : $NETMASK"
+
+elif [ "$OS" == "Linux" ]; then
+    INTERFACE="eth0"
+    echo "Caractéristiques de l'interface Ethernet sur Linux ($INTERFACE):"
+    
+    BROADCAST=$(ip addr show $INTERFACE | grep "brd" | awk '{print $6}')
+    echo "Adresse de Broadcast : $BROADCAST"
+    
+    IP=$(ip addr show $INTERFACE | grep "inet " | awk '{print $2}')
+    echo "Adresse IP et masque : $IP"
+    
+    echo "Adresses IP dans le même sous-réseau :"
+    ip route show | grep $INTERFACE | grep "proto kernel" | awk '{print $1}'
+else
+    echo "Système d'exploitation non pris en charge."
+    exit 1
+fi

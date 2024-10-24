@@ -1,0 +1,6 @@
+Pour identifier les différents appareils réseaux (ou hops) entre votre poste et le domaine slash16.org,
+vous pouvez utiliser une commande de traceroute. Cette commande permet de suivre
+le chemin emprunté par les paquets sur le réseau et d’afficher chaque nœud (ou appareil réseau) rencontré en cours de route.
+
+traceroute slash16.org
+

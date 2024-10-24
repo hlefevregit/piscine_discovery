@@ -1,0 +1,15 @@
+Selon les resultats de personnes ayant pu faire cet exercice lorsque le site netait pas down, les resultats ressembleraient a ceci :
+
+en tapant la commande 'whois' suvi du domaine recherche, on obtient :
+whois slash16.org
+
+les serveurs DNS sont :
+NS-1236.AWSDNS-26.ORG
+NS-144.AWSDNS-18.COM
+NS-686.AWSDNS-21.NET
+NS-1989.AWSDNS-56.CO.UK
+
+On peut donc en deduire que le domaine slash16.org est heberge par Amazon Web Services
+
+cf : https://github.com/lsauva
+

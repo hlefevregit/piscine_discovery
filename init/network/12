@@ -1,0 +1,25 @@
+#!/bin/bash
+
+OS="$(uname)"
+
+if [ "$OS" == "Darwin" ]; then
+    echo "Récupération de l'adresse IP sur macOS..."
+    HOST="localhost"
+    
+elif [ "$OS" == "Linux" ]; then
+    echo "Récupération de l'adresse IP sur Linux..."
+    HOST="localhost"
+    
+else
+    echo "Système d'exploitation non pris en charge."
+    exit 1
+fi
+
+echo "Résolution de l'adresse IP pour $HOST..."
+IP_ADDRESS=$(ping -c 1 $HOST | grep 'PING' | awk '{print $3}' | tr -d '()')
+
+if [ -z "$IP_ADDRESS" ]; then
+    echo "Impossible de récupérer l'adresse IP."
+else
+    echo "Adresse IP assignée : $IP_ADDRESS"
+fi

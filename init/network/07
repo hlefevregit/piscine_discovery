@@ -1,0 +1,31 @@
+Malheureusement le site donné en exemple ne fonctionne pas.
+Mais si nous suivons les instructions données dans le code, nous pouvons obtenir les informations demandées grace à la commande suivante :
+
+dig @8.8.8.8 slash16.org
+
+La commande suivante fonctionne egalement :
+
+nslookup slash16.org 8.8.8.8
+
+La sortie typique de dig est la suivante :
+
+; <<>> DiG 9.11.3-1ubuntu1.14-Ubuntu <<>> @8.8.8.8 slash16.org
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50224
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 2, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;slash16.org.                   IN      A
+
+;; ANSWER SECTION:
+slash16.org.            3600    IN      A       <IP_ADDRESS>
+
+;; AUTHORITY SECTION:
+...
+
+;; Query time: 37 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: <date>
+;; MSG SIZE  rcvd: 124

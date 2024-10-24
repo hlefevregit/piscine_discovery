@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+
+OS="$(uname)"
+
+if [ "$OS" == "Darwin" ]; then
+    
+    echo "Adresse MAC de l'interface Wi-Fi sur macOS :"
+    ifconfig en0 | grep ether | awk '{print $2}'
+elif [ "$OS" == "Linux" ]; then
+    WIFI_INTERFACE="wlp3s0"
+    echo "Adresse MAC de l'interface Wi-Fi sur Linux :"
+    ip link show $WIFI_INTERFACE | grep "link/ether" | awk '{print $2}'
+else
+    echo "Système d'exploitation non pris en charge."
+    exit 1
+fi

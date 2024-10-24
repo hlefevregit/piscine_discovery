@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "dig +short is used to get the IP address of a domain name."
+echo "For example, the IP address of google.com is:"
+dig +short google.com
+echo "But the given domain name is no longer valid."

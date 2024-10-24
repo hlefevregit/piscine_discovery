@@ -1,0 +1,14 @@
+#!/bin/bash
+
+OS="$(uname)"
+
+if [ "$OS" == "Darwin" ]; then
+    echo "Gateway par défaut sur macOS :"
+    netstat -nr | grep default | awk '{print $2}'
+elif [ "$OS" == "Linux" ]; then
+    echo "Gateway par défaut sur Linux :"
+    ip route | grep default | awk '{print $3}'
+else
+    echo "Système d'exploitation non pris en charge."
+    exit 1
+fi

@@ -1,0 +1,13 @@
+Sous Linux :
+
+Vous pouvez obtenir le chemin du fichier avec la commande suivante :
+echo "/etc/resolv.conf"
+
+Sous macOS :
+
+Vous pouvez obtenir le chemin du fichier avec la commande suivante :
+scutil --dns | grep nameserver | awk '{print $3}'
+
+Le fichier contient des lignes ressemblant à ceci :
+nameserver 8.8.8.8
+nameserver 8.8.4.4
