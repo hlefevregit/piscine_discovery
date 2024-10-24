@@ -1,2 +1,2 @@
-BCN{arriba}
-BCN{Argañín}
+42BCN{arriba}
+42BCN{Argañín}
