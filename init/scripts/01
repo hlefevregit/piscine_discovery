@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Lire le fichier /etc/passwd ligne par ligne
+while IFS=: read -r login x uid gid info home shell; do
+    # Afficher le login, l'UID et le chemin du répertoire personnel
+    echo "Login: $login, UID: $uid, Home Path: $home"
+done < /etc/passwd

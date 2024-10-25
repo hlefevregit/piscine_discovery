@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Vérifier qu'un nom d'utilisateur est fourni
+if [ -z "$1" ]; then
+    echo "Veuillez fournir le nom d'utilisateur à supprimer."
+    echo "Usage : sudo ./delete_logged_in_user.sh <nom_utilisateur>"
+    exit 1
+fi
+
+USERNAME=$1
+
+# Vérifier si l'utilisateur est connecté
+if who | grep -q "^$USERNAME\b"; then
+    echo "L'utilisateur $USERNAME est actuellement connecté."
+
+    # Fermer toutes les sessions de l'utilisateur
+    pkill -KILL -u "$USERNAME"
+    echo "Toutes les sessions de $USERNAME ont été fermées."
+else
+    echo "L'utilisateur $USERNAME n'est pas connecté."
+fi
+
+# Supprimer l'utilisateur et son répertoire personnel
+sudo userdel -r "$USERNAME"
+if [ $? -eq 0 ]; then
+    echo "L'utilisateur $USERNAME a été supprimé avec succès."
+else
+    echo "Échec de la suppression de l'utilisateur $USERNAME."
+fi
