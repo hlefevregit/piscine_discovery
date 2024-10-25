@@ -1,0 +1,14 @@
+1. Connexion en tant que nouvel utilisateur en session graphique
+
+	1.	Déconnectez-vous de votre session actuelle.
+	2.	Sur l’écran de connexion, sélectionnez le nouvel utilisateur (par exemple, johndoe).
+	3.	Entrez le mot de passe de cet utilisateur que vous avez configuré avec la commande passwd.
+	4.	Vous serez alors connecté en tant que cet utilisateur, avec un bureau et un environnement personnalisés pour ce compte.
+
+2. Connexion en tant que nouvel utilisateur en session SSH
+
+Pour une connexion SSH, suivez ces étapes :
+
+	1.	Ouvrez un terminal sur votre machine locale (ou une application de terminal sur un autre ordinateur).
+	2.	Utilisez la commande ssh pour vous connecter au serveur en utilisant le nom d’utilisateur et l’adresse IP ou le nom de domaine de la machine distante.
+    ssh johndoe@adresse_ip_du_serveur
