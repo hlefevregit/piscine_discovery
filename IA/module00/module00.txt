@@ -1,0 +1,42 @@
+Ex00:
+Hello World!
+
+Ex01:
+https://chatgpt.com/
+
+Ex02:
+Un LLM (Large Language Model) est une intelligence artificielle entraînée sur d’énormes quantités de texte pour apprendre les structures du langage et les relations entre les mots.
+Il prédit le mot suivant dans une phrase en fonction du contexte, en utilisant des millions de paramètres mathématiques appelés “poids”.
+Grâce à cette capacité, il peut générer du texte cohérent, répondre à des questions ou résumer des documents.
+
+Ex03:
+Depuis l’Antiquité, des automates et mythes comme les golems ont nourri l’idée d’êtres artificiels intelligents.
+Des penseurs comme Leibniz ou Boole ont cherché à formaliser la logique, préparant le terrain pour l’intelligence artificielle.
+Au XXe siècle, Turing a posé les bases théoriques de l’IA, et la discipline a été officiellement fondée en 1956, avec des avancées comme ELIZA ou les systèmes experts.
+Après des périodes d’enthousiasme et de stagnation, les années 2000 ont vu un bond grâce au big data, aux GPU et à l’apprentissage profond.
+Depuis 2017, l’essor des transformeurs, de modèles comme ChatGPT et de l’IA multimodale a révolutionné le domaine, suscitant autant d’espoirs que d’inquiétudes.
+
+Ex04:
+Marie Dupuis (DPO) alerte sur les risques de fuite de données sensibles via l’utilisation des modèles de langage (LLM) et propose d’établir rapidement des règles claires et des mesures de sécurité.
+Jean Lefebvre (DSI) propose un filtrage des données sensibles, un audit des requêtes passées et une formation du personnel.
+Claire Martin (juridique) insiste sur les enjeux de conformité RGPD et propose la création d’une charte d’usage des LLM.
+Thomas Durand (projets numériques) soutient ces initiatives et recommande des solutions techniques pour isoler les LLM des données sensibles.
+Nathalie Dupont (DG) valide l’ensemble des propositions et appelle à une réunion rapide pour formaliser les actions.
+
+Ex05:
+OpenAI est une entreprise de recherche en intelligence artificielle fondée en 2015, visant à développer une IA bénéfique pour l’humanité.
+Elle est à l’origine de modèles avancés comme GPT (traitement du langage) et DALL·E (génération d’images).
+OpenAI se distingue par ses avancées en IA générative, utilisées dans des outils comme ChatGPT.
+Elle promeut une IA responsable tout en explorant les limites et les impacts sociétaux de ces technologies.
+
+Ex06:
+Bonjour Jean,
+
+Merci encore pour notre échange du vendredi 15 novembre. Nous avons beaucoup apprécié la présentation du produit BuzzAI, qui offre des perspectives intéressantes pour analyser le buzz autour de nos produits.
+
+Comme évoqué, nous souhaitons organiser une démonstration plus technique avec nos équipes – nous reviendrons rapidement vers vous pour fixer une date. Par ailleurs, nous allons procéder à une première évaluation budgétaire pour deux mois de surveillance via votre solution.
+
+Au plaisir de poursuivre nos échanges prochainement.
+
+Bien cordialement,
+[Votre prénom et nom]

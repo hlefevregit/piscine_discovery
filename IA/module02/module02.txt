@@ -1,0 +1,15 @@
+Ex00:
+https://chatgpt.com/
+
+Ex01:
+Peux tu me generer une image, ou comme dans le petit prince, je veux un dessin dun mouton dans une boite ?
+cf ex01.png
+
+Ex02:
+[PROMPT]
+Peux tu me generer une image par slide faite sur le diapo sur le deep learning quon a vu precedemment ?
+[REPONSE]
+cf ex02slide*.png
+
+Ex03:
+

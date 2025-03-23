@@ -2,7 +2,7 @@
 
 if [ $# -eq 0 ]; then
 	echo "No arguments supplied"
-	exit 1
+	exit 
 else
 	for i; do
 		echo $i

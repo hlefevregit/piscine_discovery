@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Calculatrice</title>
+        <style>
+            input {
+                margin: 10px;
+            }
+            select {
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="calculatrice">
+            <input type="text" id="premierNombre" placeholder="Entrez un nombre">
+            <select id="operateur">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+            </select>
+            <input type="text" id="deuxiemeNombre" placeholder="Entrez un nombre">
+            <input type="submit" value="Try me !">
+        </form>
+        <script>
+            document.getElementById('calculatrice').addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                const premierNombre = document.getElementById("premierNombre").value;
+                const deuxiemeNombre = document.getElementById("deuxiemeNombre").value;
+                const operateur = document.getElementById("operateur").value;
+
+                if (!isPositiveInteger(premierNombre) || !isPositiveInteger(deuxiemeNombre)) {
+                    alert("Error :(");
+                    return;
+                }
+
+                const valeurPremierNombre = parseInt(premierNombre, 10);
+                const valeurDeuxiemeNombre = parseInt(deuxiemeNombre, 10);
+
+                let resultat;
+                switch (operateur) {
+                    case '+':
+                        resultat = valeurPremierNombre + valeurDeuxiemeNombre;
+                        break;
+                    case '-':
+                        resultat = valeurPremierNombre - valeurDeuxiemeNombre;
+                        break;
+                    case '*':
+                        resultat = valeurPremierNombre * valeurDeuxiemeNombre;
+                        break;
+                    case '/':
+                        if (valeurDeuxiemeNombre === 0) {
+                            alert("It's over 9000!");
+                            console.log("It's over 9000!");
+                            return;
+                        }
+                        resultat = valeurPremierNombre / valeurDeuxiemeNombre;
+                        break;
+                    case '%':
+                        if (valeurDeuxiemeNombre === 0) {
+                            alert("It's over 9000!");
+                            console.log("It's over 9000!");
+                            return;
+                        }
+                        resultat = valeurPremierNombre % valeurDeuxiemeNombre;
+                        break;
+                    default:
+                        alert("operator non valide");
+                        console.log("operator non valide");
+                        return;
+                }
+                alert("Le résultat est : " + resultat);
+                console.log("Le résultat est : " + resultat);
+            });
+
+            function isPositiveInteger(value) {
+                return /^\d+$/.test(value) && parseInt(value, 10) >= 0;
+            }
+
+            setInterval(function() {
+                alert("Please, use me ...");
+            }, 30000);
+        </script>
+    </body>
+</html>

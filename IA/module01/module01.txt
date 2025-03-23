@@ -1,0 +1,246 @@
+Ex00:
+Fiche de Poste : Chargé(e) d’Analyse de Données Marketing
+
+Mission principale :
+Au sein de l’équipe marketing, le(la) Chargé(e) d’Analyse de Données Marketing aura pour mission de collecter, analyser et interpréter les données issues des campagnes marketing et des comportements utilisateurs, afin d’optimiser les actions et la stratégie globale.
+
+Compétences requises :
+Techniques :
+	•	Maîtrise des outils d’analyse de données (Excel, Google Analytics, Power BI, Looker, etc.)
+	•	Connaissance des outils CRM et plateformes de marketing digital
+	•	Bonne compréhension des indicateurs clés de performance (KPI)
+	•	Capacité à structurer et présenter des rapports clairs et exploitables
+
+Comportementales :
+	•	Esprit analytique et rigueur
+	•	Sens de l’organisation et autonomie
+	•	Aisance dans la communication inter-équipes
+	•	Curiosité et proactivité
+
+Qualifications :
+	•	Bac +4/5 en marketing, data analysis, statistiques ou équivalent
+	•	Une première expérience dans l’analyse marketing ou en data analytics est souhaitée
+	•	La maîtrise de SQL ou d’un langage de traitement de données est un plus
+	•	Certifications en Google Analytics ou outils BI appréciées
+
+Lieu de travail :
+Hybride – 2 jours télétravail/semaine, présentiel dans nos bureaux à [Ville]
+
+Conditions d’emploi :
+CDI – Temps plein, prise de poste dès que possible
+
+Ex01:
+Bien sûr ! Voici quelques idées de slogans pour “ft_transcendance”, un site web de pong multijoueur :
+	1.	« ft_transcendance – Le Pong, réinventé pour défier vos limites »
+	2.	« Pong. Compétition. Transcendance. »
+	3.	« ft_transcendance – Le rétro devient légende »
+	4.	« Rejoignez l’arène. Vivez la transcendance. »
+	5.	« ft_transcendance – Plus qu’un jeu, un duel d’esprits »
+	6.	« Pong multijoueur, adrénaline partagée »
+	7.	« ft_transcendance – Le classique en mode épique »
+
+Ex02:
+Madame, Monsieur,
+
+Je souhaite vous proposer ma candidature pour le poste en télémarketing au sein de votre entreprise. Doté d’un bon relationnel, j’apprécie le contact avec les clients et je suis convaincu de ma capacité à promouvoir efficacement vos produits ou services.
+
+J’ai déjà une première expérience dans des fonctions orientées vers la communication, notamment en tant que caissier, où j’ai appris à écouter, dialoguer et répondre aux besoins des clients avec réactivité et courtoisie. Ces compétences me seront utiles pour réussir dans un poste de télémarketing.
+
+Motivé, dynamique et disponible immédiatement, je suis à la recherche d’un emploi stable dans lequel je pourrai m’investir pleinement. À l’aise au téléphone et soucieux de bien faire, je suis prêt à m’adapter rapidement aux méthodes et objectifs de votre équipe.
+
+Je me tiens à votre disposition pour un entretien afin d’échanger plus en détail sur ma motivation et mes compétences.
+
+Cordialement,
+[Votre prénom et nom]
+
+Ex03:
+[PROMPT]
+Peux tu traduire ce texte en anglais ?
+Les systèmes d’intelligence artificielle (IA) sont de plus en plus utilisés dans le recrutement,
+notamment pour la présélection des CV. Cependant, malgré leur apparence de neutralité,
+ces technologies peuvent reproduire et même renforcer des biais humains. L’une des principales
+préoccupations concernant l’utilisation de l’IA dans le tri des CV est la manière dont elle
+peut perpétuer des discriminations basées sur des caractéristiques telles que l’âge, le sexe,
+ou l’origine ethnique.
+Par exemple, une IA formée à partir de données historiques pourrait apprendre à privilégier
+les candidats blancs de plus de 50 ans si, dans le passé, ce groupe a été surreprésenté dans
+les postes à pourvoir. L’algorithme, en se basant sur ces données, pourrait conclure que
+ce profil est celui qui a le plus de chances de réussir, même si cela reflète simplement
+des préjugés et des pratiques discriminatoires dans le processus de recrutement. Ce biais
+peut se manifester de manière subtile, par exemple en donnant une importance exagérée
+à certaines expériences ou formations qui sont statistiquement plus courantes chez des
+personnes de ce groupe.
+De même, pour des postes perçus comme traditionnellement féminins, tels que les métiers
+d’infirmière, une IA pourrait favoriser les CV de femmes. Si les données historiques
+montrent que la majorité des personnes occupant ces postes étaient des femmes, l’algorithme
+pourrait développer une association entre le genre féminin et la réussite dans ce type de
+rôle, écartant potentiellement des hommes qualifiés.
+Ces biais ne sont pas intentionnels, mais ils sont inhérents au fonctionnement des IA
+qui s’appuient sur des données du passé. Si les données d’entraînement reflètent des
+inégalités ou des stéréotypes, les décisions de l’algorithme seront biaisées. Il est donc
+crucial d’utiliser des données diversifiées et de mettre en place des mécanismes de correction
+des biais pour éviter que l’IA ne reproduise des schémas discriminatoires. Les entreprises
+doivent également se montrer vigilantes en évaluant régulièrement les algorithmes utilisés
+dans leurs processus de recrutement afin d’assurer que ces outils contribuent à une plus
+grande équité, plutôt qu’à la perpétuation des inégalités existantes.
+En somme, l’utilisation des IA dans le choix des CV comporte des risques de biais liés à
+l’âge, au genre et à l’origine ethnique. Il est indispensable de prendre des mesures pour
+s’assurer que ces outils ne deviennent pas des amplificateurs d’injustices, mais bien des
+leviers pour promouvoir l’inclusion et la diversité.
+
+[REPONSE]
+
+Artificial intelligence (AI) systems are increasingly used in recruitment, particularly for the preselection of résumés. However, despite their appearance of neutrality, these technologies can replicate and even amplify human biases. One of the main concerns about using AI in résumé screening is how it can perpetuate discrimination based on characteristics such as age, gender, or ethnic background.
+
+For example, an AI trained on historical data might learn to favor white candidates over 50 if that group was overrepresented in previous hiring decisions. The algorithm, relying on such data, could conclude that this profile has the highest likelihood of success—even though this simply reflects existing biases and discriminatory practices in recruitment processes. This bias can manifest subtly, for instance by giving disproportionate weight to certain experiences or qualifications that are statistically more common among people in that group.
+
+Similarly, for roles traditionally perceived as female-dominated—such as nursing—an AI system might favor applications from women. If historical data shows that most people in these roles were women, the algorithm could develop an association between female gender and success in that type of role, potentially excluding qualified male candidates.
+
+These biases are not intentional but are inherent to how AI functions, relying on patterns from past data. If the training data reflects inequalities or stereotypes, the algorithm’s decisions will be biased. It is therefore essential to use diverse datasets and implement bias-correction mechanisms to prevent AI from reproducing discriminatory patterns. Companies must also be vigilant by regularly evaluating the algorithms used in their recruitment processes to ensure these tools contribute to greater fairness rather than reinforcing existing inequalities.
+
+In short, using AI in résumé selection carries risks of bias related to age, gender, and ethnicity. It is vital to take measures to ensure these tools do not become amplifiers of injustice, but rather drivers of inclusion and diversity.
+
+
+Ex04:
+Bonjour,
+
+Je viens de recevoir votre demande concernant la possibilité d’un remboursement pour le produit que vous avez acheté chez nous. Après vérification, nous ne sommes malheureusement pas en mesure de répondre favorablement à votre requête.
+
+En effet, notre politique de retour ne permet pas d’effectuer de remboursement dans ce type de situation, en particulier après le délai indiqué dans les conditions d’achat.
+
+Nous comprenons que cette situation puisse être décevante, mais nous ne pouvons pas accorder de dérogation. Nous faisons toujours notre maximum pour satisfaire nos clients, mais dans ce cas précis, il ne nous est pas possible de donner suite à votre demande.
+
+En espérant conserver votre confiance, nous restons à votre disposition pour toute autre question ou information complémentaire.
+
+Cordialement,
+[Votre nom]
+Service Client
+
+
+
+Madame, Monsieur,
+
+Nous accusons réception de votre demande relative au remboursement du produit que vous avez acquis auprès de notre établissement.
+
+Après examen attentif de votre requête, nous regrettons de devoir vous informer que celle-ci ne peut être acceptée. Conformément à notre politique de retour, mentionnée dans nos conditions générales de vente, les remboursements ne sont pas autorisés dans ce type de situation, en particulier une fois le délai prévu écoulé.
+
+Nous comprenons parfaitement votre déception et vous assurons que cette décision résulte exclusivement de l’application stricte de nos procédures internes. Soyez assuré(e) que nous attachons une grande importance à la satisfaction de nos clients, dans le respect des cadres contractuels établis.
+
+Nous restons bien entendu à votre disposition pour tout renseignement complémentaire.
+
+Veuillez agréer, Madame, Monsieur, l’expression de nos salutations distinguées.
+
+[Votre nom]
+Service Client
+
+
+Ex05:
+[PROMPT]
+Peux tu maider pour faire 5 slides sur le deep learning ?
+
+[REPONSE]
+🧠 Slide 1 – Introduction au Deep Learning
+	•	Le Deep Learning est une branche de l’intelligence artificielle (IA) et du machine learning.
+	•	Il repose sur des réseaux de neurones artificiels profonds (deep neural networks).
+	•	Il permet aux machines d’apprendre à partir de grandes quantités de données et d’effectuer des tâches complexes : reconnaissance d’images, traduction automatique, assistants vocaux, etc.
+
+🔗 Slide 2 – Fonctionnement du Deep Learning
+	•	Réseau de neurones = ensemble de couches (input, hidden, output).
+	•	Chaque couche contient des neurones qui traitent et transmettent l’information.
+	•	Le modèle apprend en ajustant des poids grâce à un processus appelé rétropropagation (backpropagation).
+	•	Plus il y a de couches, plus le modèle peut apprendre des représentations abstraites des données.
+
+📊 Slide 3 – Exemples d’applications
+	•	Vision par ordinateur : reconnaissance faciale, analyse d’images médicales.
+	•	Traitement du langage naturel (NLP) : traduction, résumé de texte, chatbots.
+	•	Voiture autonome : détection d’objets, prise de décision en temps réel.
+	•	Finance : détection de fraudes, analyse prédictive.
+
+⚙️ Slide 4 – Avantages et limites
+
+Avantages :
+	•	Performance élevée avec beaucoup de données.
+	•	Apprentissage automatique de caractéristiques sans intervention humaine.
+
+Limites :
+	•	Nécessite de grandes quantités de données et de puissance de calcul.
+	•	Boîte noire : difficile à interpréter.
+	•	Risque de biais si les données d’entraînement sont biaisées.
+
+🚀 Slide 5 – Perspectives et enjeux
+	•	Développement de modèles de plus en plus puissants (GPT, DALL·E, etc.).
+	•	Importance de l’explicabilité de l’IA.
+	•	Besoin d’IA éthique et responsable.
+	•	L’avenir : vers une IA plus généralisée et multimodale (texte, image, son).
+
+
+Ex06:
+Scénario : Terre 2125 – Vers une Humanité Augmentée
+
+1. Habitat et urbanisme
+
+Les villes sont devenues intelligentes, verticales et modulables.
+Les bâtiments produisent leur propre énergie, régulent la température et s’adaptent aux besoins de leurs occupants.
+Les zones rurales, revitalisées, accueillent des éco-communautés autonomes.
+
+
+2. Mobilité et transports
+
+Les véhicules sont 100 % autonomes, électriques ou propulsés par hydrogène.
+Les routes sont intelligentes, les embouteillages ont disparu.
+Des capsules à lévitation magnétique relient les villes à très grande vitesse, et les premiers vols orbitaux commerciaux sont devenus monnaie courante.
+
+
+3. Travail et économie
+
+Le travail humain est recentré sur la créativité, l’empathie et la supervision des IA.
+Beaucoup de tâches répétitives sont automatisées.
+L’économie repose sur des modèles hybrides : revenu universel, économie circulaire, micro-entrepreneuriat assisté par IA.
+
+
+4. Santé et biotechnologies
+
+La médecine prédictive a remplacé la médecine curative.
+Les diagnostics sont instantanés via des capteurs implantés ou portables.
+L’ingénierie génétique permet d’éliminer certaines maladies héréditaires, et les organes artificiels imprimés en 3D sont courants.
+
+
+5. Intelligence artificielle et robotique
+
+L’IA est omniprésente dans la vie quotidienne : assistance personnelle, éducation, décisions publiques.
+Les robots humanoïdes assurent des fonctions de soin, logistique ou accompagnement.
+L’enjeu majeur est devenu la gouvernance éthique de l’IA.
+
+
+6. Éducation et apprentissage
+
+L’école traditionnelle a laissé place à un apprentissage personnalisé, adaptatif et immersif grâce aux interfaces cerveau-machine et à la réalité augmentée.
+Les compétences émotionnelles et collectives sont aussi valorisées que les savoirs techniques.
+
+
+7. Climat et environnement
+
+Grâce à une transition écologique accélérée, l’humanité a stabilisé les émissions carbone.
+La géo-ingénierie est utilisée avec prudence pour réguler le climat.
+Les océans et forêts sont surveillés par des IA écologiques, et l’économie repose sur des ressources renouvelables.
+
+
+8. Alimentation et agriculture
+
+L’agriculture verticale, la culture cellulaire (viande in vitro) et les fermes algales nourrissent la planète.
+Les ressources sont localisées, optimisées et redistribuées via des plateformes automatisées.
+Le gaspillage alimentaire est quasi nul.
+
+
+9. Société et modes de vie
+
+Les sociétés sont plus inclusives et connectées, mais parfois fragmentées entre communautés numériques.
+L’identité numérique est centrale dans les échanges.
+Le bien-être, le temps libre et le développement personnel sont devenus des piliers sociaux.
+
+
+10. Exploration spatiale
+
+L’humanité s’est implantée sur la Lune et Mars pour des missions scientifiques et des habitats expérimentaux.
+Le commerce spatial débute, notamment avec l’exploitation minière d’astéroïdes.
+La Terre reste le centre névralgique, mais le regard est tourné vers les étoiles.
