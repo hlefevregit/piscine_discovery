@@ -1,0 +1,11 @@
+from robot import *
+placerMarqueur(2)
+droite()
+droite()
+droite()
+droite()
+droite()
+droite()
+prendre()
+allerAuMarqueur(2)
+poser()
