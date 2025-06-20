@@ -12,4 +12,30 @@ Peux tu me generer une image par slide faite sur le diapo sur le deep learning q
 cf ex02slide*.png
 
 Ex03:
+[PROMPT]
+Lorsque je tai demande un slogan pour mon projet ft_transcendance, le site web de pong multijoueur, peux tu desormais me generer un logo
+[REPONSE]
+cf logo.png
 
+Ex04:
+[PROMPT]
+Maintenant :
+Générez un graphique représentant l’évolution de la population mondiale au cours des
+2000 dernières années.
+[REPONSE]
+Evolution...png
+
+Voici le graphique représentant l’évolution de la population mondiale au cours des 2000 dernières années.
+On y observe une croissance lente pendant de nombreux siècles, suivie d’une forte accélération à partir du XIXe siècle avec l’essor industriel, puis une explosion démographique au XXe siècle.
+
+Ex05:
+Voire le resultats des eleves et les comparer a ce qui est demande
+
+Ex06:
+IDEM
+
+Ex07:
+IDEM
+
+Ex08:
+IDEM
