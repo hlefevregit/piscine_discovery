@@ -2,25 +2,25 @@
 
 from robot import *
 
-
 def ramenerPion():
-    for i in range(6):
+    placerMarqueur("A")
+    for loop in range(6):
         droite()
     prendre()
-    for i in range(6):
-        gauche()
+    allerAuMarqueur("A")
     poser()
-        
+
 ramenerPion()
 
 # Partie 2
 
 from robot import *
-placerMarqueur(1)
-def tirerAuDe() :
+
+def tirerAuDe():
+    placerMarqueur("A")
     allerAuMarqueur("D")
     prendre()
     lacher()
-    allerAuMarqueur(1)
-    
-tirerAuDe() 
+    allerAuMarqueur("A")
+
+tirerAuDe()
